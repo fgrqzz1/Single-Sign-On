@@ -1,0 +1,66 @@
+# Зависимости
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+.env.local
+.env.*.local
+
+# Переменные окружения и секреты
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+secrets/
+
+# Сборка и артефакты
+dist/
+build/
+out/
+*.egg-info/
+.eggs/
+*.egg
+
+# Логи и кеш
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+.parcel-cache/
+.npm
+.eslintcache
+*.tsbuildinfo
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Тесты и покрытие
+coverage/
+.nyc_output/
+htmlcov/
+.tox/
+.pytest_cache/
+.coverage
+*.cover
+
+# Временные файлы
+tmp/
+temp/
+*.tmp
+*.temp
